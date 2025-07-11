@@ -1,0 +1,198 @@
+Casos de prueba:
+
+
+
+Id P1
+
+•	Titulo: visualización de página en celulares
+
+•	Ingreso a la pagina
+
+•	Resultado esperado: Página responsiva 
+
+•	Resultado obtenido: página no responsiva
+
+
+
+Id P2
+
+•	Titulo: visualización de página en tablets
+
+•	Ingreso a la pagina
+
+•	Resultado esperado: Página responsiva
+
+•	Resultado obtenido: página no responsiva
+
+
+
+Id P3
+
+
+
+•	Titulo: visualización de página en Notebooks
+
+•	Ingreso a la pagina
+
+•	Resultado esperado: Página responsiva
+
+•	Resultado obtenido: Página responsiva 
+
+
+
+
+
+Id P4
+
+•	Titulo: visualización de página en Computadora
+
+•	Ingreso a la pagina
+
+•	Resultado esperado: Página responsiva
+
+•	Resultado obtenido: página responsiva
+
+
+
+Id P5
+
+•	Titulo: Conexión entre login y registro
+
+•	Ingreso a la pagina
+
+•	Resultado esperado: redireccion al registro al apretar el boton.
+
+•	Resultado obtenido: Redirección la página de registro
+
+
+
+Id P6
+
+•	Titulo: de registro a login
+
+•	Ingreso a la pagina
+
+•	Resultado esperado: redirección al login 
+
+•	Resultado obtenido: redirección al login
+
+
+
+Id P7 
+
+•	Titulo: login y inicio
+
+•	Botón de inicio de sesión 
+
+•	Resultado esperado: Redireccióna página de inicio	Resultado obtenido: No hace nada.
+
+
+
+Reporte de errores:
+
+
+
+Id : E1
+
+
+
+•	Título: Error en el login
+
+
+
+•	Debido a que la base de datos no esta conectada no se puede ingresar.
+
+•	Pasos a Seguir: Ingreso de datos.
+
+•	Resultado esperado: que se guarden en la base de datos
+
+•	Resultado obtenido: No ingresan lo datos
+
+
+
+
+
+ Id=E2
+
+
+
+
+
+•	Título: Error de login
+
+•	Debido a que la base de datos no esta conectada no se puede ingresar.
+
+•	Pasos a seguir: se tiene que ingresar  Usuario-Contraseña-Ingresar
+
+•	Resultado esperado: Guardado en la base de datos
+
+•	Resultado obtenido: No se guarda en la base de datos
+
+
+
+
+
+Id=E3
+
+
+
+•	Título: Error en la visualización de la página en celulares.
+
+•	En el registro no se ve bien
+
+Resultado esperado: Se tiene que ver de forma optima para poder completar los datos.
+
+•	Pasos a seguir: Configuración del código para hacerla responsiva
+
+
+
+•	Resultado esperado: ver pagina completa
+
+
+
+•	Resultado obtenido: Aun falta configurar
+
+
+
+
+
+Id= E4
+
+
+
+
+
+•	Título: Error en la visualización de la página en tablets
+
+
+
+•	La pagina no se ve bien
+
+Resultado esperado: Se tiene que ver de forma optima.
+
+•	Pasos a seguir: Configuración del código para hacerla responsiva
+
+•	Resultado esperado: ver pagina completa
+
+•	Resultado obtenido: Aun falta configurar 
+
+
+
+Id= E5
+
+
+
+•	Título: Error en la visualización de la página en Notebooks 
+
+•	La pagina no se ve bien
+
+Resultado esperado: Se tiene que ver de forma optima.
+
+•	Pasos a seguir: Configuración del código para hacerla responsiva
+
+•	Resultado esperado: ver pagina completa
+
+•	Resultado obtenido: Aun falta configurar 
+
+
+
