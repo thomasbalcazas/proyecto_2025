@@ -1,11 +1,12 @@
- <?php
-$host = "sql105.infinityfree.com" ;
-$user = "if0_39843490" ;
-$password = "Njoy2025" ;
-$database = "if0_39843490_NJOY"
+<?php
+$host = "sql208.infinityfree.com";
+$user = "if0_39450468";
+$pass = "Njoy2025";
+$db   = "if0_39450468_njoy";
 
+$conn = new mysqli($host, $user, $pass, $db);
 
-$conexion =mysqli_connect( $host , $user , $password , $database ); 
-if (! $conexion ) {
-   echo "No se realizo la conexion a la base de datos, el error fue:"
-       mysqli_connect_error();
+if ($conn->connect_error) {
+    die(json_encode(["success" => false, "message" => "Error en la conexión: " . $conn->connect_error]));
+}
+?>
